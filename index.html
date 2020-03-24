@@ -1,0 +1,37 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Iniciar Sesión</title>
+            <meta name="description" content="prueba">
+            <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+            <meta name="author" content="Bryan">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+    <body>
+            <div class="container p-3 my-3">
+                <h2>Iniciar sesión</h2>
+                    <div class="jumbotron col-md-12" >
+                        <form name="login" action="ProcessSession.php" method="POST" class="form-inline">
+                            <div class="form-group">
+                                <label class="mb-2 mr-sm-2">Usuario</label>
+                                <input id="first-name" type="text" class="form-control mb-2 mr-sm-2" name="input-name" placeholder="User" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label class="mb-2 mr-sm-2">Contraseña</label>
+                                <input id="password" type="password" class="form-control mb-2 mr-sm-2"  name="input-password" placeholder="password" required="required">
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary mb-2" name="send-info">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+      </body>
+  </html>
+
+  
